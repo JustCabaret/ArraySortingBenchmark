@@ -14,4 +14,3 @@ def sorter4():
     arr = np.load('random_words_array.npy')
     # Use the function quick_sort
     arr_sorted_quick_sort = quick_sort(arr)
-

@@ -36,5 +36,3 @@ arr = np.load('random_words_array.npy')
 # Use the merge_sort function
 def sorter2():
     merge_sort(arr)
-
-sorter2()
