@@ -3,11 +3,11 @@ import psutil
 from threading import Thread
 import time
 import matplotlib.pyplot as plt
-from arraySorter1 import sorter1
-from arraySorter2 import sorter2
-from arraySorter3 import sorter3
-from arraySorter4 import sorter4
-from arraySorter5 import sorter5
+from built_in_sort import sorter1
+from merge_sort import sorter2
+from case_insensitive_sort import sorter3
+from quick_sort import sorter4
+from heap_sort import sorter5
 
 # Function to monitor CPU usage, allocate memory, and measure execution time
 def monitor_cpu_memory_time(func, results, interval_seconds=1):
